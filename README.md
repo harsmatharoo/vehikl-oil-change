@@ -47,11 +47,11 @@ A car is considered **due for an oil change** if:
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 cd YOUR_REPO
 
-
 ### 2. Install dependencies
 ```bash
 composer install
 ```
+
 ### 3. Environment setup
 ```bash
 cp .env.example .env
