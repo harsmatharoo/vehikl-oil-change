@@ -82,7 +82,7 @@ http://127.0.0.1:8000
 ---
 Routes
 GET / → Show form
-POST /check → Submit form
+POST /check →  Handle submission
 GET /result/{id} → Show result page
 ---
 Tech Stack
