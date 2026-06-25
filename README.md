@@ -47,6 +47,46 @@ A car is considered **due for an oil change** if:
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 cd YOUR_REPO
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 2. Install dependencies
+```bash
+composer install
+```
+### 3. Environment setup
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+### 4. Database setup (SQLite)
+Create SQLite file:
+```bash
+touch database/database.sqlite
+```
+In your `.env` file, set:
+```env
+DB_CONNECTION=sqlite
+```
+### 5. Run migrations
+```bash
+php artisan migrate
+```
+### 6. Start the application
+```bash
+php artisan serve
+```
+Open in browser:
+```
+http://127.0.0.1:8000
+```
+---
+Routes
+GET / → Show form
+POST /check → Submit form
+GET /result/{id} → Show result page
+---
+Tech Stack
+Laravel 12
+Blade Templates
+SQLite Database
+Carbon (date calculations)
+
