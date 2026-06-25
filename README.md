@@ -85,9 +85,9 @@ GET / → Show form,
 POST /check →  Handle submission, 
 GET /result/{id} → Show result page.
 ---
-Tech Stack
-Laravel 12
-Blade Templates
-SQLite Database
-Carbon (date calculations)
+Tech Stack: 
+Laravel 12,
+Blade Templates,
+SQLite Database,
+Carbon (date calculations).
 
