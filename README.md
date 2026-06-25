@@ -81,9 +81,9 @@ http://127.0.0.1:8000
 ```
 ---
 Routes
-GET / → Show form
-POST /check →  Handle submission
-GET /result/{id} → Show result page
+GET / → Show form, 
+POST /check →  Handle submission, 
+GET /result/{id} → Show result page.
 ---
 Tech Stack
 Laravel 12
